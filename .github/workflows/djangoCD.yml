@@ -20,6 +20,6 @@ jobs:
           port: 22
           script : |
             cd /home/jaemin/code/ciTest
-            git pull
+            git pull 
             pip3 install -r requirements.txt
             python3 manage.py runserver 0.0.0.0:8000
