@@ -22,4 +22,4 @@ jobs:
             cd /home/jaemin/code/ciTest
             git pull 
             docker build -t django .
-            docker run -d --name djangoC django
+            docker run -d -p 8000:8000 --name djangoC django
