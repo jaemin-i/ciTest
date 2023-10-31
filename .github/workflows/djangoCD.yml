@@ -20,6 +20,6 @@ jobs:
           port: 22
           script : | 
             cd /home/jaemin/code/ciTest
-            git pull 
+            git pull
             docker build -t django .
             docker run -d -p 8000:8000 --name djangoC django
